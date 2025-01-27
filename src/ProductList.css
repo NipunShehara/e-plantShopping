@@ -1,3 +1,4 @@
+/* ProuductList.css */
 /* Reset some default styles */
 body, h1, ul {
     margin: 0;
@@ -249,4 +250,35 @@ body {
       .ul div {
         text-align: center; /* Align text to the center */
       }
+  }
+
+  .product-button.added {
+    background-color: brown;
+    cursor: not-allowed;
+  }
+  
+  .tag {
+    margin-right: 10%;
+  }
+  
+
+
+
+
+
+
+
+
+
+/* ProductList.css */
+.cart-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .item-count {
+    position: absolute;
+    color: red;
+    font-weight: bold;
+   
   }
